@@ -4,6 +4,6 @@
 课程Web网址：[https://time.geekbang.org/column/intro/314](https://time.geekbang.org/column/intro/314)
 
 ## 目录内容
-### [lab/java](lab/java)  
+### [javac](javac)  
 Java编译器课程资料。
 
