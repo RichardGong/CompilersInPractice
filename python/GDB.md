@@ -8,7 +8,7 @@
 
 ## 安装GDB
 在CentOS下，我用下面的命令一股脑装了所有与开发有关的工具包，其中就包含了GDB。
->yum groupinstall "Development Tools”
+>yum groupinstall "Development Tools"
     
 因为我们还要编译Python，上述命令也安装了编译所需的工具链。    
 
@@ -40,7 +40,8 @@
 
 这样就进入了Python的REPL。   
 
-第二步，运行GDB，并attach到python进程上。
+第二步，运行GDB，并attach到python进程上。   
+打开第二个终端，并输入：
 > gdb -p \`pidof python`  
 
 这个命令会找出python的进程id，并attach上去。你也可以用ps命令手工查找python的进程id。
